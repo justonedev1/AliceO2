@@ -1674,6 +1674,7 @@ boost::program_options::options_description DeviceSpecHelpers::getForwardedDevic
     ("shm-allocation", bpo::value<std::string>()->default_value("rbtree_best_fit"), "shm allocation method")                                                         //
     ("shm-no-cleanup", bpo::value<std::string>()->default_value("false"), "no shm cleanup")                                                                          //
     ("shmid", bpo::value<std::string>(), "shmid")                                                                                                                    //
+    ("shm-metadata-msg-size", bpo::value<std::string>(), "single numeric value used for padding of shm metadata message, see FairMQ v.1.6.0 for details")            //
     ("environment", bpo::value<std::string>(), "comma separated list of environment variables to set for the device")                                                //
     ("stacktrace-on-signal", bpo::value<std::string>()->default_value("simple"),                                                                                     //
      "dump stacktrace on specified signal(s) (any of `all`, `segv`, `bus`, `ill`, `abrt`, `fpe`, `sys`.)"                                                            //
