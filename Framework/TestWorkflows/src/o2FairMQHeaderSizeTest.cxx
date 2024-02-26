@@ -12,7 +12,7 @@
 /// \file o2FairMQHeaderSizeTest.cxx
 /// \brief Just a simple workflow to test how much messages can be stored internally,
 ///        when nothing is consumed. Used for tuning parameter shm-message-metadata-size.
-///        
+///
 ///
 /// \author Michal Tichak, michal.tichak@cern.ch
 
